@@ -1,0 +1,56 @@
+body{
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+.sidebar{
+	position:absolute;
+	background-color: lightgrey;
+	width:25vw;
+	height:100vh;
+	right: 0;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.audio {
+	width:5em;
+	height:5em;
+	background-color: black;
+	margin:3em;
+}
+
+.microphone {
+	margin:5%;
+	padding:0.5em;
+	border-radius: 5px;
+	background-color:#484f5b;
+}
+
+.microphone span {
+	padding-left:0.5em;
+	font-family: 'Arial';
+	color:white;
+}
+
+.microphone i {
+	color:#242426;
+}
+
+.media {
+	width:100%;
+	height:1em;
+	background-color: grey;
+	margin:0.5em;
+}
+
+audio {
+	display:none;
+}
+
+.mute {
+	position: relative;
+	float:right;
+}
